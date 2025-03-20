@@ -1,6 +1,10 @@
 # NTDisconn
 Create Neurotransmitter Network Damage
 
+This work is based on 
+Population based Tractogram Xiao et al. 2023: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10474320/
+Neurotransmitter Density maps Hansen et al. 2022: https://pubmed.ncbi.nlm.nih.gov/36303070/
+
 
 1. Required repositories 
 nibabel
@@ -8,6 +12,8 @@ scipy
 dipy
 antspyx
 pandas
+
+To create the Disconnectomes, currently the installation of mrtrix3 (https://www.mrtrix.org/) is required, this will be changed in the future.
 
 2. Clone the repository
 
@@ -44,5 +50,6 @@ IN the output_dir a directory with the ID is created containing
 This is a test lesion when used correctly like: 
 python Create_NT_Disconn.py Test Test_MNI_lesion.nii.gz output_test
 
-Creates the individual Neurotransmitter network damage like follows:
+Creates the individual Neurotransmitter network damage:
+
 
