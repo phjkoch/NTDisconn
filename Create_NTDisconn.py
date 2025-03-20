@@ -16,6 +16,7 @@ import os
 import ants
 from tqdm import tqdm
 import pandas as pd
+import requests
 def buildArgsParser():
     p = argparse.ArgumentParser(
         description=__doc__,
@@ -74,13 +75,28 @@ def main():
 
         return(metric_tractrogram)
 
+    tck_file = "HCP422_2_million.tck"
+    if os.path.isfile(tck_file)
+        print("Tactogram exisitng")
+    else:
+        print("Downloading Tractogram...........")
+        osf_url = "https://osf.io/download/nduwc/"
+        response = requests.get(osf_url, stream=True)
+        total_size = int(response.headers.get("content-length", 0))
+        with open(tck_file, "wb") as file, tqdm(desc=tck_file, total=total_size, unit="B", unit_scale=True) as bar:
+            for chunk in response.iter_content(chunk_size=8192):
+                file.write(chunk)
+                bar.update(len(chunk))
+        print("Download complete!")
+       
 
+    
     if os.path.isfile(out_NT_disc) == True:
         print("disc sl already calculated")
     else:
 
         print("Loading streamlines ##########################################")
-        tractogram = nib.streamlines.load("HCP422_2_million.tck")
+        tractogram = nib.streamlines.load(tck_file)
         streamlines = tractogram.streamlines
         header_sl = tractogram.header
 
