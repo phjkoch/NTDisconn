@@ -76,7 +76,7 @@ def main():
         return(metric_tractrogram)
 
     tck_file = "HCP422_2_million.tck"
-    if os.path.isfile(tck_file)
+    if os.path.isfile(tck_file):
         print("Tactogram exisitng")
     else:
         print("Downloading Tractogram...........")
