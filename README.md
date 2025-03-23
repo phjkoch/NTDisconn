@@ -26,7 +26,6 @@ cd NTDisconn
 python Create_NTDisconn.py --help
 ```
 &nbsp;&nbsp;&nbsp;&nbsp; usage: Create_NTDisconn.py [-h] [--discStreamlines DISCSTREAMLINES]
-                       [--Connectome CONNECTOME]
                        ID in_lesion output_dir
 
 &nbsp;&nbsp;&nbsp;&nbsp;positional arguments:
@@ -38,8 +37,6 @@ python Create_NTDisconn.py --help
   -h, --help            show this help message and exit
   --discStreamlines DISCSTREAMLINES
                     Create disconnected streamline output? [y|n]
-  &nbsp;&nbsp;&nbsp;&nbsp;--Connectome CONNECTOME
-                    Create Connectome output? [y|n]
 
 4. Output
 IN the output_dir a directory with the ID is created containing
