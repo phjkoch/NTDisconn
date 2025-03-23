@@ -25,7 +25,8 @@ cd NTDisconn
 ```bash
 python Create_NTDisconn.py --help
 ```
-&nbsp;&nbsp;&nbsp;&nbsp; usage: Create_NTDisconn.py [-h] [--discStreamlines DISCSTREAMLINES]
+&nbsp;&nbsp;&nbsp;&nbsp;Usage:  
+&nbsp;&nbsp;&nbsp;&nbsp;Create_NTDisconn.py [-h] [--discStreamlines DISCSTREAMLINES]
                        ID in_lesion output_dir
 
 &nbsp;&nbsp;&nbsp;&nbsp;positional arguments:  
@@ -33,7 +34,7 @@ python Create_NTDisconn.py --help
 &nbsp;&nbsp;&nbsp;&nbsp;in_lesion             Input individual Lesionmask in MNI152 (1mm iso)  
 &nbsp;&nbsp;&nbsp;&nbsp;output_dir            Specify output directory
 
-&nbsp;&nbsp;&nbsp;&nbsp;options:  
+&nbsp;&nbsp;&nbsp;&nbsp;optional arguemnts:  
 &nbsp;&nbsp;&nbsp;-h, --help            show this help message and exit  
 &nbsp;&nbsp;&nbsp;--discStreamlines DISCSTREAMLINES
                     Create disconnected streamline output? [y|n]
