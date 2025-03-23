@@ -25,20 +25,20 @@ cd NTDisconn
 ```bash
 python Create_NTDisconn.py --help
 ```
-usage: Create_NTDisconn.py [-h] [--discStreamlines DISCSTREAMLINES]
+    usage: Create_NTDisconn.py [-h] [--discStreamlines DISCSTREAMLINES]
                            [--Connectome CONNECTOME]
                            ID in_lesion output_dir
 
-positional arguments:
-  ID                    Subject ID
-  in_lesion             Input individual Lesionmask in MNI152 (1mm iso)
-  output_dir            Specify output directory
+    positional arguments:
+      ID                    Subject ID
+      in_lesion             Input individual Lesionmask in MNI152 (1mm iso)
+      output_dir            Specify output directory
 
-options:
-  -h, --help            show this help message and exit
-  --discStreamlines DISCSTREAMLINES
+    options:
+      -h, --help            show this help message and exit
+      --discStreamlines DISCSTREAMLINES
                         Create disconnected streamline output? [y|n]
-  --Connectome CONNECTOME
+      --Connectome CONNECTOME
                         Create Connectome output? [y|n]
  
 4. Output
