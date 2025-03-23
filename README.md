@@ -38,7 +38,7 @@ python Create_NTDisconn.py --help
   -h, --help            show this help message and exit
   --discStreamlines DISCSTREAMLINES
                     Create disconnected streamline output? [y|n]
-  --Connectome CONNECTOME
+  &nbsp;&nbsp;&nbsp;&nbsp;--Connectome CONNECTOME
                     Create Connectome output? [y|n]
 
 4. Output
