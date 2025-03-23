@@ -29,12 +29,12 @@ python Create_NTDisconn.py --help
                        [--Connectome CONNECTOME]
                        ID in_lesion output_dir
 
-positional arguments:
+&nbsp;&nbsp;&nbsp;&nbsp;positional arguments:
   ID                    Subject ID
   in_lesion             Input individual Lesionmask in MNI152 (1mm iso)
   output_dir            Specify output directory
 
-options:
+&nbsp;&nbsp;&nbsp;&nbsp;options:
   -h, --help            show this help message and exit
   --discStreamlines DISCSTREAMLINES
                     Create disconnected streamline output? [y|n]
