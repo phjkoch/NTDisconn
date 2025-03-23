@@ -17,12 +17,14 @@ pandas
 ```bash
 git clone https://github.com/phjkoch/NTDisconn.git
 cd NTDisconn
+```
 
 
 3. Usage
 
-
+```bash
 python Create_NTDisconn.py --help
+```
 usage: Create_NTDisconn.py [-h] [--discStreamlines DISCSTREAMLINES]
                            [--Connectome CONNECTOME]
                            ID in_lesion output_dir
@@ -46,8 +48,10 @@ IN the output_dir a directory with the ID is created containing
 
 
 5. Test_MNI_lesion.nii.gz
-This is a test lesion when used correctly like: 
+This is a test lesion when used correctly like:
+```bash
 python Create_NT_Disconn.py Test Test_MNI_lesion.nii.gz output_test
+```
 
 Creates the individual Neurotransmitter network damage:
 
