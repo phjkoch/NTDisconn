@@ -33,8 +33,8 @@ def buildArgsParser():
                    help='Specify output directory')
     p.add_argument('--discStreamlines', default='y',
                    help='Create disconnected streamline output? [y|n]')
-    p.add_argument('--Connectome', default='y',
-                   help='Create Connectome output? [y|n]')
+    #p.add_argument('--Connectome', default='y',
+    #               help='Create Connectome output? [y|n]')
 
 
     return p
@@ -136,7 +136,7 @@ def main():
             d[neurotrans] = np.sum(nt_weights)
 
 
-
+            '''
             if args.Connectome == 'y':
                 print("Creating Connectomes #########################")
                 #tck2connectome_cmd = "tck2connectome HCP422_2_million.tck BN_Atlas_277_05mm_HCPA.nii.gz " + out_connect_pres + " -tck_weights_in "+out_weights_tractogram_pres+" --assignment_radial_search 4 -symmetric -f"  # -zero_diagonal
@@ -144,7 +144,7 @@ def main():
 
                 tck2connectome_cmd = "tck2connectome HCP422_2_million.tck BN_Atlas_277_05mm_HCPA.nii.gz " + out_connect + " -tck_weights_in tmp_disc.txt --assignment_radial_search 4 -symmetric -f"  # -zero_diagonal
                 subprocess.call(tck2connectome_cmd, shell=True)
-
+            '''
         df = pd.DataFrame(d, index=[0])
         df.to_csv(out_NT_disc)
 
