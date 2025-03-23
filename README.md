@@ -25,22 +25,22 @@ cd NTDisconn
 ```bash
 python Create_NTDisconn.py --help
 ```
-    usage: Create_NTDisconn.py [-h] [--discStreamlines DISCSTREAMLINES]
-                           [--Connectome CONNECTOME]
-                           ID in_lesion output_dir
+&nbsp;&nbsp;&nbsp;&nbsp; usage: Create_NTDisconn.py [-h] [--discStreamlines DISCSTREAMLINES]
+                       [--Connectome CONNECTOME]
+                       ID in_lesion output_dir
 
-    positional arguments:
-      ID                    Subject ID
-      in_lesion             Input individual Lesionmask in MNI152 (1mm iso)
-      output_dir            Specify output directory
+positional arguments:
+  ID                    Subject ID
+  in_lesion             Input individual Lesionmask in MNI152 (1mm iso)
+  output_dir            Specify output directory
 
-    options:
-      -h, --help            show this help message and exit
-      --discStreamlines DISCSTREAMLINES
-                        Create disconnected streamline output? [y|n]
-      --Connectome CONNECTOME
-                        Create Connectome output? [y|n]
- 
+options:
+  -h, --help            show this help message and exit
+  --discStreamlines DISCSTREAMLINES
+                    Create disconnected streamline output? [y|n]
+  --Connectome CONNECTOME
+                    Create Connectome output? [y|n]
+
 4. Output
 IN the output_dir a directory with the ID is created containing
 1. A csv file with the estimated Neurotransmitter network damage of the individual lesion map for all the Neurotransmitter receptors and transporters from Hansen et al. 2022
