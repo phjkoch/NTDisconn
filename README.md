@@ -29,9 +29,9 @@ python Create_NTDisconn.py --help
                        ID in_lesion output_dir
 
 &nbsp;&nbsp;&nbsp;&nbsp;positional arguments:
-  &nbsp;&nbsp;&nbsp;&nbsp;ID                    Subject ID
-  &nbsp;&nbsp;&nbsp;&nbsp;in_lesion             Input individual Lesionmask in MNI152 (1mm iso)
-  &nbsp;&nbsp;&nbsp;&nbsp;output_dir            Specify output directory
+&nbsp;&nbsp;&nbsp;&nbsp;ID                    Subject ID
+&nbsp;&nbsp;&nbsp;&nbsp;in_lesion             Input individual Lesionmask in MNI152 (1mm iso)
+&nbsp;&nbsp;&nbsp;&nbsp;output_dir            Specify output directory
 
 &nbsp;&nbsp;&nbsp;&nbsp;options:
   -h, --help            show this help message and exit
