@@ -1,9 +1,11 @@
 # NTDisconn
 Create Neurotransmitter Network Damage
 
-This work is based on 
-Population based Tractogram Xiao et al. 2023: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10474320/
-Neurotransmitter Density maps Hansen et al. 2022: https://pubmed.ncbi.nlm.nih.gov/36303070/
+This work is based on:  
+Population based Tractogram  
+Xiao et al. 2023: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10474320/  
+Neurotransmitter Density maps  
+Hansen et al. 2022: https://pubmed.ncbi.nlm.nih.gov/36303070/
 
 
 1. Required repositories   
