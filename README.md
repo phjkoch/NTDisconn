@@ -6,12 +6,12 @@ Population based Tractogram Xiao et al. 2023: https://www.ncbi.nlm.nih.gov/pmc/a
 Neurotransmitter Density maps Hansen et al. 2022: https://pubmed.ncbi.nlm.nih.gov/36303070/
 
 
-1. Required repositories 
-nibabel
-scipy
-dipy
-antspyx
-pandas
+1. Required repositories   
+&nbsp;&nbsp;&nbsp;&nbsp;nibabel  
+&nbsp;&nbsp;&nbsp;&nbsp;scipy  
+&nbsp;&nbsp;&nbsp;&nbsp;dipy  
+&nbsp;&nbsp;&nbsp;&nbsp;antspyx  
+&nbsp;&nbsp;&nbsp;&nbsp;pandas  
 
 2. Clone the repository
 ```bash
