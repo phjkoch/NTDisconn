@@ -41,16 +41,16 @@ python Create_NTDisconn.py --help
 &nbsp;&nbsp;&nbsp;--discStreamlines DISCSTREAMLINES
                     Create disconnected streamline output? [y|n]
 
-4. Output
-IN the output_dir a directory with the ID is created containing
-1. A csv file with the estimated Neurotransmitter network damage of the individual lesion map for all the Neurotransmitter receptors and transporters from Hansen et al. 2022
-2. A txt file with 2 Millionen entries indicating which streamlines of the HCP-aging tractogram is passing through the individual lesion mask [1] and which are sparsed [0] (optional)
+4. Output  
+&nbsp;&nbsp;&nbsp;In the output_dir a directory named after the ID is created containing  
+&nbsp;&nbsp;&nbsp;1. A csv file with the estimated Neurotransmitter network damage of the individual lesion map for all the Neurotransmitter receptors and transporters from Hansen et al. 2022
+&nbsp;&nbsp;&nbsp;2. A txt file with 2 millionen entries indicating which streamlines of the HCP-aging tractogram is passing through the individual lesion mask [1] and which are sparsed [0] (optional)
 
 
 5. Test_MNI_lesion.nii.gz
 This is a test lesion when used correctly like:
 ```bash
-python Create_NT_Disconn.py Test Test_MNI_lesion.nii.gz output_test
+python Create_NTDisconn.py Test Test_MNI_lesion.nii.gz output_test
 ```
 
 Creates the individual Neurotransmitter network damage:
