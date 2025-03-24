@@ -43,7 +43,7 @@ python Create_NTDisconn.py --help
 
 4. Output  
 &nbsp;&nbsp;&nbsp;In the output_dir a directory named after the ID is created containing  
-&nbsp;&nbsp;&nbsp;1. A csv file with the estimated Neurotransmitter network damage of the individual lesion map for all the Neurotransmitter receptors and transporters from Hansen et al. 2022
+&nbsp;&nbsp;&nbsp;1. A csv file with the estimated Neurotransmitter network damage of the individual lesion map for all the Neurotransmitter receptors and transporters from Hansen et al. 2022  
 &nbsp;&nbsp;&nbsp;2. A txt file with 2 millionen entries indicating which streamlines of the HCP-aging tractogram is passing through the individual lesion mask [1] and which are sparsed [0] (optional)
 
 
